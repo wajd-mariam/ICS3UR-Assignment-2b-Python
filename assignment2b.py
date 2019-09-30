@@ -14,12 +14,12 @@ def main():
     height = int(input("Enter the height of the cylinder (cm):"))
 
     # process
-    circumference = (2*math.pi*radius*height) + (2*math.pi*radius**2)
+    surface_area = (2*math.pi*radius*height) + (2*math.pi*radius**2)
 
     # output
     print("")
-    print("The circumference of the cylinder is {:.2f} cm^"
-          .format(circumference))
+    print("The surface_area of the cylinder is {:.2f} cm^2"
+          .format(surface_area))
 
 
 if __name__ == "__main__":
